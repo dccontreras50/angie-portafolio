@@ -1,0 +1,311 @@
+/* rising */
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
+h1, h2, h3{
+    font-family: 'Antic Didone', serif;
+}
+p{
+    font-family: 'Lexend Giga', sans-serif;
+}
+h4, b{font-family: 'Bad Script', cursive;}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+ul li{
+    list-style: none;
+    font-family: 'Antic Didone', serif;
+}
+button{
+    font-family: 'Bad Script', cursive;}
+
+/* header */
+/* nav */
+header nav .container .navbar-collapse{
+    width: 100%;
+    justify-content: flex-end;
+    font-family: 'Antic Didone', serif;
+    font-size: 20px;
+}
+header .bg-portafolio-a{
+    background: #E5BAC0;
+}
+header .navbar-dark .navbar-nav .navbar-link{
+    color: #000000;
+    text-decoration: none;
+}
+li a{
+    font-size: 10;
+}
+header nav .logo img{
+    max-width: 150px;
+    padding-right: 30px;
+}
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+/* nav */
+
+header div #carouselheader img  {
+    max-width: 100px;
+    max-height: 50px;
+    margin-bottom: 80px;
+}
+
+#header .carousel-inner img {
+    width: 100%;
+    max-height: 900px;
+    
+}
+
+header .carousel-inner{
+ height: 700px;
+}
+header{
+    position: relative;
+}
+
+header .text{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+header .text img{
+    width: 500px;
+    height: 400px;
+    padding-bottom: 50px;
+}
+header .text h1{
+    font-size: 80px;
+    color: #000000;
+    margin-top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+header .text h4{
+    font-size: 80px;
+    color: #000000;
+}
+
+/* header */
+/* sobre mi */
+#sobre mi{
+    width: 100%;
+    /* margin-top: 200px;
+    padding-top: 400px; */
+    padding-left: 0%;
+    padding-right: 0%;
+}
+#sobre mi .container{
+    padding-bottom: 30px;
+    padding-top: 80px;
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-right: 30px;  
+}
+
+/* #sobre mi .container-{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    left: 0;
+    right: 0; */
+
+#sobre mi .container .row .col-md-4 img{
+    width: 80%;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+#sobre mi .container .row .col-md-8 img{
+    width: 80%;
+    position: relative;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+/* fin sobre mi */
+/* estudios */
+#estudios{
+    width: 100%;
+    /* padding-top: 50px; */
+    padding-left: 0%;
+    padding-right: 0%;
+}
+#estudios{
+    width: 100%;
+    /* padding: 150px 300px; */
+    /* background: #E5BAC0; */
+}
+#estudios .container{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    left: 0;
+    right: 0;
+    /* background: #E5BAC0; */
+}
+#estudios .container .row .col-md-6 img{
+    width: 80%;
+    margin-top: 40px;
+    /* padding-top: 60px; */
+    left: 0;
+    right: 0;
+    border: 2px solid #E5BAC0;
+}
+
+/* fin estudios */
+/* experiencia */
+#experiencia{
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+#experiencia .container{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    left: 0;
+    right: 0;
+}
+/* fin experiencia */
+/* habilidades */
+#habiliades{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+}
+#habilidades .container{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    left: 0;
+    right: 0;
+}
+#habilidades .container .row{
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-bottom: 70px;
+}
+#habilidades .col-md-4 h2{
+    position: absolute;
+    bottom: -90px;
+    color: #ffffff;
+    transition: 1s;
+    margin-left: 140px;
+}
+
+#habilidades .col-md-4:hover h2{
+    bottom: 100px;
+    color: #e5bac0;
+    background: #323c48cf;
+    border-radius: 20px;
+}
+
+/* fin habilidades */
+/* portafolio */
+.portafolio-menu .nav-tabs .nav-link{
+    color: #000000;
+    font-size: 20px;
+    border: #E5BAC0;
+    padding: 10px 20px;
+    font-family: 'Bad Script', cursive;
+}
+
+.portafolio-menu .nav-tabs .nav-link.active{
+    background: #E5BAC0;
+}
+#portafolio .container{
+    width: 100%;
+}
+
+.fotos .img-g{
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.muestras .img-g2{
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.illustracion .img-g3{
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+/* fin portafolio */
+/* contacto */
+#contacto{
+    width: 100%;
+    text-align: center;
+}
+#contacto .container form{
+    max-width: 100%;
+    margin: 0 auto;
+}
+#contacto .container form input{
+    width: 30%;
+    margin: 10px 15px;
+    padding: 9px 20px;
+    border-radius: 4px;
+    font-family: 'Bad Script', cursive;
+}
+#contacto .container form button{
+    background:#E5BAC0;
+    color: #000000;
+    margin-top: 30px;
+    padding: 8px 40px;
+    border-radius: 4px;
+}
+/* fin contacto */
+/* footer */
+footer{
+        width: 100%;
+        margin-top: 50px;
+        padding-top: 25px;
+        /* background: url(../img/bg-footer.png); */
+        background: #E5BAC0;
+        color: #000000;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 30px;
+}
+footer .container a img{
+    max-width: 200px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+footer .container ul a img{
+    max-width: 80px;
+    padding-right: 30px;
+}
+footer .container ul img{
+    max-width: 80px;
+    padding-right: 30px;
+}
+/* fin footer */
